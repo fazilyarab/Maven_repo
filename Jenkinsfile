@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Application') {
             steps {
-                sh 'mvn  clean package'
+                echo "fazil working fine"
             }
             
             }
