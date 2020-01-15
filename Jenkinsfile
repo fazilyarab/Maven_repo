@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Application') {
             steps {
-                echo "fazil working fine"
+                echo "fazil normal pipeline woring fine"
             }
             
             }
