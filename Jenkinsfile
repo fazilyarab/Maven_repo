@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('new Application') {
+        stage('First Build') {
             steps {
                  
                 sh  'mvn --version' 
