@@ -4,7 +4,7 @@ pipeline {
         stage('First Build') {
             steps {
                  
-                sh  "mvn -version" 
+                sh  "mvn -f pom.xml clean package'" 
             }
             
             }
