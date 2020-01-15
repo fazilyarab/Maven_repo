@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('new Application') {
             steps {
-                sh 'mvn -B -DskipTests clean package' 
+                sh  'mvn --version' 
             }
             
             }
